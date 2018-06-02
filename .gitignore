@@ -1,0 +1,5 @@
+
+bootstrap/configuration.php
+docs/.vuepress/dist/*
+.idea/*
+vendor/*
