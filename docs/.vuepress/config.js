@@ -38,7 +38,7 @@ module.exports = {
         ]
       }]
     },
-    repo: 'imageslr/weapp-library',
+    repo: 'imageslr/library-api',
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '在 Github 上编辑此页',

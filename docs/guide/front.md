@@ -72,7 +72,7 @@ import promisePolyfill from './utils/promise-polyfill'
 为了方便管理和维护，小程序项目根据[API 文档定义](https://app.swaggerhub.com/apis/imageslr/weapp/1.0.1#/)，按照`Model`维度，将小程序的网络请求划分为 9 个模块，共 50 余个接口，见[GitHub](https://github.com/imageslr/weapp-library/tree/master/apis/)。
 
 ### request 基类方法
-小程序项目在[request.js](https://github.com/imageslr/weapp-library/tree/master/apis/request.js)中封装了`request`方法，提供`request拦截`、`responee拦截`、`统一的错误处理`、`BASE_URL设置`等功能，返回`Promise`对象，代码如下：
+小程序项目在[request.js](https://github.com/imageslr/weapp-library/tree/master/apis/request.js)中封装了`request`方法，提供`request拦截`、`response拦截`、`统一的错误处理`、`BASE_URL设置`等功能，返回`Promise`对象，代码如下：
 
 ```JS {2,23,28-32}
 // 远程服务器
